@@ -56,13 +56,12 @@ img {
 
 .section-title {
   color: var(--primary-text-color);
-
 }
 
 /* logo */
 
-.page-header{
-        border-bottom: 1px solid #ececec;
+.page-header {
+  border-bottom: 1px solid #ececec;
 }
 
 .container {
@@ -72,14 +71,11 @@ img {
 
   padding-right: 215px;
   padding-left: 215px;
-
 }
 
 .container-header {
   align-items: center;
   display: flex;
-
-
 }
 
 .nav-list {
@@ -128,14 +124,12 @@ img {
 .contacts-nav {
   display: flex;
   margin-left: auto;
-
 }
 
-
-.contacts-mail, .contacts-tel{
-    padding-top: 32px;
-      padding-bottom: 32px;
-      
+.contacts-mail,
+.contacts-tel {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .contacts-nav .item:not(:last-child) {
   margin-right: 15px;
@@ -179,8 +173,8 @@ img {
   font-family: inherit;
   font-size: 16px;
   text-decoration: none;
-  background: #2196F3;
-    border-radius: 4px;
+  background: #2196f3;
+  border-radius: 4px;
 }
 
 .button.primary {
@@ -191,10 +185,10 @@ img {
   background-color: var(--accent-color);
   margin-top: 30px;
   padding: 0;
-    width: 200px;
-      height: 50px;
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-      border: none;
+  width: 200px;
+  height: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
 }
 
 .button.secondary {
@@ -209,8 +203,7 @@ img {
   height: 38px;
   border: none;
   display: inline-block;
-    padding: 6px 22px;
-  
+  padding: 6px 22px;
 }
 
 .button.secondary:hover,
@@ -349,7 +342,7 @@ img {
 
 .logo-secondary {
   margin-bottom: 9px;
-  display:block;
+  display: block;
 }
 
 /* address */
@@ -366,40 +359,33 @@ img {
 
 /* Portfolio page */
 
-.portfolio{
+.portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
-    justify-content: flex-start;
-
+  justify-content: flex-start;
 }
-
 
 .portfolio-buttons {
   display: flex;
   margin-bottom: 50px;
   justify-content: center;
-
 }
 
-.portfolio-buttons:not(:last-child){
+.portfolio-buttons:not(:last-child) {
   gap: 8px;
 }
 
-
-
-.portfolio-blocks{
+.portfolio-blocks {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  
 }
 
-.portfolio-text{
-padding: 20px 24px;
+.portfolio-text {
+  padding: 20px 24px;
   background-color: var(--light-text-color);
   border: 1px solid #eeeeee;
   border-top: transparent;
-    
 }
 
 .portfolio-sample {
@@ -415,10 +401,6 @@ padding: 20px 24px;
   font-size: 16px;
   line-height: 1.87;
   font-weight: normal;
-  padding-top: -14px
 
   color: var(--secondary-text-color);
 }
-
-
-
