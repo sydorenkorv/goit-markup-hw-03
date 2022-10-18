@@ -198,6 +198,19 @@ ul {
 
 /* features */
 
+.hidden-title {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -330,23 +343,53 @@ ul {
 
 /* Portfolio page */
 
+.portfolio{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.portfolio-buttons {
+  display: flex;
+  margin-bottom: 50px;
+  text-align: center;
+  
+}
+
+.portfolio-buttons .secondary{
+  margin-right: 8px;
+}
+
+
+
+.portfolio-blocks{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  
+}
+
+.portfolio-items{
+
+    
+}
+
 .portfolio-sample {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
+  padding-top: 20px 24px;
 }
 
 .portfolio-info {
   font-size: 16px;
   line-height: 1.87;
   font-weight: normal;
+  padding-top: -14px
 
   color: var(--secondary-text-color);
 }
 
-.portfolio-buttons{
-  display: flex;
-}
+
 
