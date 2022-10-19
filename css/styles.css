@@ -89,12 +89,12 @@ img {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   color: var(--accent-color);
-  margin-right: 97px;
   display: flex;
 }
 
 .logo .logo-primary {
   color: var(--primary-black-color);
+  margin-right: 97px;
 }
 
 /* nav */
