@@ -89,6 +89,9 @@ img {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   color: var(--accent-color);
+}
+
+.header-primary {
   display: flex;
 }
 
@@ -330,12 +333,20 @@ img {
   padding-bottom: 60px;
 }
 
-.logo .logo-secondary {
+.container-footer .logo {
+  display: inline-block;
   margin-bottom: 20px;
+}
+
+.logo .logo-secondary {
   color: var(--primary-white-color);
 }
 
 /* address */
+
+.address-item:not(:last-child) {
+  margin-bottom: 9px;
+}
 
 .address .link {
   font-style: normal;
@@ -343,12 +354,10 @@ img {
   color: var(--footer-text-color);
 }
 
-.address-item:not(:last-child) {
-  margin-bottom: 9px;
-}
-
-.address .address-location {
+.contacts-footer .address-location {
   color: var(--primary-white-color);
+  text-decoration: none;
+  font-style: normal;
 }
 
 /* Portfolio page */
